@@ -16,17 +16,19 @@
     </nav>
     <section class="project-details">
         <div class="container">
-            <h1 class="section-title">Weather Data System</h1>
-            <p style="max-width:700px;margin:auto;font-size:1.15rem;text-align:left;">
-                Weather Data System is a modern full-stack web application that empowers users to query and retrieve historical weather data in real time. Users can submit weather requests with custom notes and receive a unique ID for each query, which can be used to look up detailed results later. The system seamlessly integrates a FastAPI backend with WeatherStack API and a dynamic Next.js/React frontend, offering a smooth, responsive experience.<br><br>
+            <h1 class="section-title" style="text-align:center;">Weather Data System</h1>
+            <div style="max-width:700px;margin:auto;font-size:1.15rem;text-align:center;">
+                <p>
+                    Weather Data System is a modern full-stack web application that empowers users to query and retrieve historical weather data in real time. Users can submit weather requests with custom notes and receive a unique ID for each query, which can be used to look up detailed results later. The system seamlessly integrates a FastAPI backend with WeatherStack API and a dynamic Next.js/React frontend, offering a smooth, responsive experience.
+                </p>
                 <strong>Key Features:</strong>
-                <ul style="margin-left:1.5rem;">
+                <ul style="margin-left:1.5rem;display:inline-block;text-align:left;">
                     <li>FastAPI backend with robust POST/GET endpoints, real-time WeatherStack API integration, and schema validation using Pydantic.</li>
                     <li>Modern Next.js + React frontend with dynamic forms, weather lookup by unique ID.</li>
                     <li>Custom error handling, responsive design, and a streamlined local development setup using Python virtualenv and Node.js.</li>
                     <li>Submit date, location, and notes to receive a unique weather ID; use the ID to retrieve and view detailed weather data at any time.</li>
                 </ul>
-            </p>
+            </div>
             <div style="display:flex;justify-content:center;margin:2.5rem 0;">
                 <video src="WeatherLookupDemo.mp4" controls style="width:100%;max-width:700px;border-radius:18px;box-shadow:0 6px 32px #0003;"></video>
             </div>
