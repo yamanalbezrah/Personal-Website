@@ -1,6 +1,6 @@
 # Personal Website
 
-A modern, responsive personal website built with HTML, CSS, and JavaScript.
+Welcome to my Personal Website!
 
 ## Features
 
@@ -10,3 +10,4 @@ A modern, responsive personal website built with HTML, CSS, and JavaScript.
 - 🎭 Smooth animations and transitions
 - 🍔 Mobile hamburger menu
 - 📧 Contact section with social links
+
